@@ -1,0 +1,9 @@
+@use '../styles/variables' as var;
+@use "../components/Box/Box.scss";
+@use "../components/BoxRace/Boxrace";
+@use "../components/BoxSpin/BoxSpin";
+
+body {
+  background-color: var.$main-color;
+  color: var.$secondary-color;
+}
